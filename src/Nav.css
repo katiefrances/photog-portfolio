@@ -1,0 +1,10 @@
+li {
+    display: inline;
+    background: yellow;
+    padding: 10px;
+    min-height: 10%;
+}
+
+.Nav {
+    background: red;
+}
