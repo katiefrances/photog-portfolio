@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
-import SectionOneLeft from './SectionOneLeft.js';
-import SectionOneRight from './SectionOneRight.js'
+import { Grid, Row, Col } from 'react-flexbox-grid';
+// import SectionOneRight from './SectionOneRight.js'
+
 class SectionOne extends Component {
     render () {
 
         return (
             <div className="SectionOne">
-            <h1>First Section</h1>    
-            <SectionOneLeft></SectionOneLeft>   
-            <SectionOneRight></SectionOneRight>         {/* <img src=" https://fillmurray.com/g/200/300"/> */}
+                <Grid fluid>
+                    <Row>
+                        <Col md={12}>
+                            <h1>Heading</h1>
+                        </Col>
+                        <Col md={6}>
+                            Et proident ut velit exercitation ex incididunt. Mollit minim id laborum sunt fugiat sit ipsum occaecat Lorem occaecat deserunt aliquip Lorem. Aliqua est labore sit amet sit cillum voluptate qui exercitation exercitation est. Eu nostrud laborum consectetur sint sunt est culpa cupidatat. Dolore duis ullamco id sit laboris culpa.
+                        </Col>
+                        <Col md={6}>
+                            Et proident ut velit exercitation ex incididunt. Mollit minim id laborum sunt fugiat sit ipsum occaecat Lorem occaecat deserunt aliquip Lorem. Aliqua est labore sit amet sit cillum voluptate qui exercitation exercitation est. Eu nostrud laborum consectetur sint sunt est culpa cupidatat. Dolore duis ullamco id sit laboris culpa.
+                        </Col>
+                    </Row>
+                </Grid>
             </div>
         )
     }

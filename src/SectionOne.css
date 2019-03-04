@@ -6,9 +6,11 @@
     align-items: center;
     min-height: 100vh;
     flex-flow:  row;
+    padding: 10%;
 }
 
 .SectionOne h1 {
     background: red;
+    flex-direction: row;
     
 }
