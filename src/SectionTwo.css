@@ -1,5 +1,8 @@
 
 .SectionTwo {
     background: red;
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-flow:  row;
 }
