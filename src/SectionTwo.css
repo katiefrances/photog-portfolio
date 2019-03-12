@@ -1,6 +1,6 @@
 
 .SectionTwo {
-    background: red;
+    background: #333;
     display: flex;
     align-items: center;
     min-height: 100vh;

@@ -10,6 +10,7 @@ import SectionTwo from './SectionTwo.js';
 import './SectionTwo.css';
 import 'react-flexbox-grid';
 import 'reactstrap';
+import Footer from './Footer.js';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Header></Header>
           <SectionOne></SectionOne>
           <SectionTwo></SectionTwo>
+          <Footer></Footer>
         </div>
 
       </div> //App
