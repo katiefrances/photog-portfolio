@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 
+// packages
+import 'react-flexbox-grid';
+import 'reactstrap';
+// import 'react-photo-gallery';
+
+// sections
 import Header from './Header.js';
 import './Header.css';
 import Nav from './Nav.js';
 import './Nav.css';
 import SectionOne from './SectionOne.js';
 import './SectionOne.css';
-import SectionTwo from './SectionTwo.js';
-import './SectionTwo.css';
-import 'react-flexbox-grid';
-import 'reactstrap';
-import Footer from './Footer.js';
+// import SectionTwo from './SectionTwo.js';
+// import './SectionTwo.css';
+// import PhotoGallery from './PhotoGallery';
+
+
+// import Footer from './Footer.js';
 
 class App extends Component {
   render() {
@@ -19,9 +26,10 @@ class App extends Component {
         <div className="Container">
         <Nav></Nav>
           <Header></Header>
+          {/* <PhotoGallery></PhotoGallery> */}
           <SectionOne></SectionOne>
-          <SectionTwo></SectionTwo>
-          <Footer></Footer>
+          {/* <SectionTwo></SectionTwo> */}
+          {/* <Footer></Footer> */}
         </div>
 
       </div> //App
